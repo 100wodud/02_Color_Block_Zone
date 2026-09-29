@@ -1,0 +1,71 @@
+# 🔧 공통 리플렉션 관련
+-keepattributes *Annotation*
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+# 📦 Unity / UnityBridge
+-keep class com.unity3d.player.** { *; }
+-keep class com.google.unity.** { *; }
+
+# 📊 Firebase + Google Play Services
+-keep class com.google.firebase.** { *; }
+-keep class com.google.android.gms.** { *; }
+-keepclassmembers class com.google.android.gms.** { *; }
+-keep class com.google.android.gms.measurement.** { *; }
+-keep class com.google.android.gms.tasks.** { *; }
+-keep class com.google.android.gms.ads.** { *; }
+-keep class com.google.android.gms.ads.identifier.** { *; }
+-keep class com.google.android.gms.internal.ads.** { *; }
+
+# Firebase Analytics / Measurement
+-keep public class com.google.firebase.analytics.FirebaseAnalytics { public *; }
+-keep public class com.google.android.gms.measurement.AppMeasurement { public *; }
+
+# Google In-App Billing
+-keep class com.android.billingclient.** { *; }
+-keep class com.android.vending.billing.** { *; }
+
+# Google Sign-In
+-keep class com.google.android.gms.auth.api.signin.** { *; }
+-keep class com.google.android.gms.common.api.** { *; }
+-keep class com.google.android.gms.common.internal.** { *; }
+-keep class com.google.android.gms.common.ConnectionResult { *; }
+-keep class com.google.android.gms.common.GooglePlayServicesUtil { *; }
+
+# Google Play Games (Achievements, Leaderboard 등)
+-keep class com.google.android.gms.games.** { *; }
+-keep class com.google.games.bridge.** { *; }
+
+# Google Play Core (In-App Review 등)
+-keep class com.google.android.play.core.review.** { *; }
+
+# 🔐 Instant Apps
+-keep class com.google.android.instantapps.InstantApps { *; }
+-keepclassmembers class com.google.android.instantapps.InstantApps { *; }
+
+
+
+
+# Mintegral
+-keep class com.mbridge.msdk.** { *; }
+-keep interface com.mbridge.msdk.** { *; }
+
+# 🎮 ByteDance 광고 SDK
+-keep class com.bytedance.sdk.** { *; }
+-keep class com.pgl.sys.ces.* { *; }
+-keep class com.bytedance.android.* { *; }
+
+# 📱 Android 기본 클래스 예외
+-keep class android.net.ConnectivityManager.** { *; }
+
+# 🎨 리소스 클래스 보호 (자동 생성된 R 클래스)
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+
+# ✅ 이름 유지 & 최적화 방지
+-dontobfuscate
+-dontshrink
+-dontoptimize

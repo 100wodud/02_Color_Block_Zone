@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2204bf128383ced4f8a374a536984a4c, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: com.Brogrammist.JSAM::JSAM.AudioLibrary
+  soundCategories:
+  - SFX
+  musicCategories:
+  - BGM
+  Sounds:
+  - {fileID: 11400000, guid: 7eefab874c5db4dd2bf87c9cb0387319, type: 2}
+  - {fileID: 11400000, guid: 815e3835693d444dbae8d6ec097ba048, type: 2}
+  - {fileID: 11400000, guid: 780c15a8665d74869a4c69694eeaab85, type: 2}
+  - {fileID: 11400000, guid: c6798b83d6c314855969bad1388022b9, type: 2}
+  - {fileID: 11400000, guid: bb39960b99c4547d782c74a2be3091f7, type: 2}
+  - {fileID: 11400000, guid: e29e46f017edd4c0ba2b9d648e2d3833, type: 2}
+  - {fileID: 11400000, guid: f5a99bf4869254e68b372356b8ae2575, type: 2}
+  - {fileID: 11400000, guid: e6c2ad4b50961463fa554ec559f06a76, type: 2}
+  - {fileID: 11400000, guid: a7accedfe1eeb4eb392ec476b3768d24, type: 2}
+  - {fileID: 11400000, guid: 678d4e70ecff1459d8f1f6d6b2af7d29, type: 2}
+  - {fileID: 11400000, guid: b86ac2bbaa3d847beb9c03b7a0e7927d, type: 2}
+  - {fileID: 11400000, guid: 52552b86e882245efa821a9fedeea265, type: 2}
+  - {fileID: 11400000, guid: 855421411d11e41d09b4b54fc7714a42, type: 2}
+  - {fileID: 11400000, guid: 67feb4f0fd78e460fb9a99bd5134b3f0, type: 2}
+  - {fileID: 11400000, guid: 6a19e54a3cce24bfc99d5fd52e23095f, type: 2}
+  - {fileID: 11400000, guid: ac032b65f0341423085df4ab28df4c73, type: 2}
+  Music:
+  - {fileID: 11400000, guid: 84d80e51a807c4e4997ca3d3a4274a19, type: 2}
+  useCustomNames: 0
+  generatedName: AudioLibrary
+  musicEnum: 
+  musicEnumGenerated: AudioLibraryMusic
+  musicNamespace: 
+  musicNamespaceGenerated: 
+  soundEnum: 
+  soundEnumGenerated: AudioLibrarySounds
+  soundNamespace: 
+  soundNamespaceGenerated: 
+  soundCategoriesToList:
+  - name: SFX
+    files:
+    - {fileID: 11400000, guid: 7eefab874c5db4dd2bf87c9cb0387319, type: 2}
+    - {fileID: 11400000, guid: 815e3835693d444dbae8d6ec097ba048, type: 2}
+    - {fileID: 11400000, guid: 780c15a8665d74869a4c69694eeaab85, type: 2}
+    - {fileID: 11400000, guid: c6798b83d6c314855969bad1388022b9, type: 2}
+    - {fileID: 11400000, guid: bb39960b99c4547d782c74a2be3091f7, type: 2}
+    - {fileID: 11400000, guid: e29e46f017edd4c0ba2b9d648e2d3833, type: 2}
+    - {fileID: 11400000, guid: f5a99bf4869254e68b372356b8ae2575, type: 2}
+    - {fileID: 11400000, guid: e6c2ad4b50961463fa554ec559f06a76, type: 2}
+    - {fileID: 11400000, guid: a7accedfe1eeb4eb392ec476b3768d24, type: 2}
+    - {fileID: 11400000, guid: 678d4e70ecff1459d8f1f6d6b2af7d29, type: 2}
+    - {fileID: 11400000, guid: b86ac2bbaa3d847beb9c03b7a0e7927d, type: 2}
+    - {fileID: 11400000, guid: 52552b86e882245efa821a9fedeea265, type: 2}
+    - {fileID: 11400000, guid: 855421411d11e41d09b4b54fc7714a42, type: 2}
+    - {fileID: 11400000, guid: 67feb4f0fd78e460fb9a99bd5134b3f0, type: 2}
+    - {fileID: 11400000, guid: 6a19e54a3cce24bfc99d5fd52e23095f, type: 2}
+    - {fileID: 11400000, guid: ac032b65f0341423085df4ab28df4c73, type: 2}
+    foldout: 1
+  musicCategoriesToList:
+  - name: BGM
+    files:
+    - {fileID: 11400000, guid: 84d80e51a807c4e4997ca3d3a4274a19, type: 2}
+    foldout: 1

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138ba70b3217a4ffa9812d39769aee42, type: 3}
+  m_Name: AdMobConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Areung_Plugin.SDK.AdMob.AdMobConfig
+  defaultAdsLevel: 0
+  commonInterCool: 0
+  isAppOpen: 0
+  appOpenInterCool: 30
+  androidBannerKey: ca-app-pub-9090266286336941/8862123914
+  androidInterstitialKey: ca-app-pub-9090266286336941/3183430988
+  androidRewardKey: ca-app-pub-9090266286336941/3104817627
+  androidAppOpenKey: ca-app-pub-9090266286336941/1681812903
+  iosBannerKey: 
+  iosInterstitialKey: 
+  iosRewardKey: 
+  iosAppOpenKey: 
+  testDeviceCSV: {fileID: 4900000, guid: db0ea30c182b04feb8fcaa7877a0509d, type: 3}
+  testDeviceIds:
+  - 703dc24e-2fdd-4b04-a14f-bda5dc0a0b1a
+  - A13B3BE7-AB9C-4CC7-BDB0-2566DF82003C
+  - 29753EE8-982E-4C1D-B571-D10DD6C11F61
+  - d8935df9-5082-420f-a7f2-84b576fb886c
+  - 18f3d4c5-f7ab-4418-87d9-10ca1ad1abe1
+  - 6f2e76d9-313b-40fd-adc7-57a7d9ff8577
+  - F0EA1A52-4ECF-420E-A8E8-67C437E06C3A
+  - E24BE03A-029E-479E-B522-7873B657778B
+  - 02d383a6-1853-4767-888b-55447bc884a4
+  - 8e29bf69-dc50-4891-a88d-d5bc56902e49
+  - dd656893-5e65-4a53-ac73-f5cb4c9d4b95
+  - ad2c1c85-5845-459b-b1b6-dcb3a34c049b
+  - 7114bb5f-423b-46b2-989f-090d02bb3e55
+  - 0BA9A64A-08B0-4362-B379-73475C6971F7
+  - 49F83E1C-B8DD-45E4-A15D-FB810E6B8F98
+  - f5a819b3-46cd-4023-929a-70891610f38e
+  - e18bab17-97124033-80a8-0a08de1a016a
+  - 80344e62-c41a-4744-9c32-2a0e641252ee
+  - 3b4eb599-f670-4340-9b4e-474e6e6e88a5
+  - 6f22095b-90d8-44d9-b510-794072130d6c
+  - 5F561FF6-BDA7-4DDD-9F9E-61BDEF3E93BC
+  - 587f4d0c-9219-4c7f-ae13-fc40301bc7b0
+  - 302db5b5-9b4f-4a6b-b7fe-644bcb032571
+  - 6e511c10-62d4-4f45-9753-8201ba0575a9
+  - b2f5d71e-644d-405e-b245-10ca1ad1abe1
+  - 7aadfa60-e1cf-4884-9ae8-2c0667c0c8ff
+  - 5748A871-6D74-4337-B369-7E19484DCDA2
+  - 3E222215-42EE-435B-BC3A-C4F0D4D1080E
+  - d29e8d72-4396-4d97-8ab6-5715cbca643d
+  - F77C325F-F0E8-48BE-9344-5AE7A1B3F478
+  - 62482077-A1B5-4EB3-A820-246CF701EB94
+  - 236c849c-5a01-4d20-b086-89f512a47d77
+  - 739db93a-4fc2-4647-943a-84de0ff10ddf
+  - dd198470-5cbd-4a3d-8334-60dd4a7796d8
+  - 37b2e3f7-61ab-4f0d-a73c-50e241cfff7c
+  - 46BB1A1A-0035-4506-8A40-C41AB47C5FAB
+  - 3d446ee2-b6ec-4f56-9ef5-f57380267a07
+  - c7f52202-6927-457c-a045-eaa1ca65f67a
+  - d63b3174-778d-4191-b686-df466a9d9bed
+  - 7A95F264-2E34-4F51-8640-6FFE90888C39
+  - d51b4814-d655-40ec-99b4-7e4d3b779ba6
+  - 8a70ca01-4a6d-4f78-bf80-bc01991e47a0
+  - 4bbdf431-f508-49c8-ae19-b85927529f6f
+  - d49248c2-2c80-4e65-9adb-063c26d4d0fd
